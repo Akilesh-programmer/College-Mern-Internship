@@ -1,0 +1,27 @@
+.flexContainer {
+  border: 1px solid red;
+  display: flex;
+  height: 90vh;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 10px;
+  flex-wrap: wrap;
+  /* align-content: flex-start; */
+}
+
+/*
+    flex-start,  center, space-around,  space-between, space-evenly
+*/
+
+.flexItem {
+    background-color: yellow;
+    border: 2px solid red;
+    color: red;
+    font-size: 32px;
+    height: 100px;
+}
+
+.flexItem:nth-child(1) {
+    order: 1;
+    align-self: center;
+}
